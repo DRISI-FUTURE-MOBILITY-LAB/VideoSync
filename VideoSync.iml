@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/Jars/miglayout15-swing.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/mariadb-java-client-1.2.3.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/vlcj-3.6.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/slf4j-api-1.7.10.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/slf4j-simple-1.7.10.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/jna-3.5.2.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/Jars/platform-3.5.2.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/vlc" expected_position="1" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/vlc" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/randomforest-model" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library name="miglayout15-swing.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/miglayout15-swing.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="mariadb-java-client-1.2.3.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/mariadb-java-client-1.2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="vlcj-3.6.0.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/vlcj-3.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC>
+          <root url="jar:platform:/resource/VideoSync%20II/Jars/vlcj-3.6.0-javadoc.jar!/" />
+        </JAVADOC>
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/Jars/vlcj-3.6.0-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="slf4j-api-1.7.10.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/slf4j-api-1.7.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/Jars/slf4j-api-1.7.10-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="slf4j-simple-1.7.10.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/slf4j-simple-1.7.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="jna-3.5.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/jna-3.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library name="platform-3.5.2.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/platform-3.5.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="opencsv-5.2" level="project" />
+    <orderEntry type="library" exported="" name="sqlite-jdbc-3.30.1" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/Jars/javafx/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/Jars/javafx/lib" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/Jars/javafx/lib" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/Jars/javafx/lib" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" name="weka" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/Jars/weka.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="JUnit5.8.1">
+        <CLASSES>
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar!/" />
+          <root url="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>

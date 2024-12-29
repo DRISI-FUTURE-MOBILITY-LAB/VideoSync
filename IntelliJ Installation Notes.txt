@@ -1,0 +1,38 @@
+VideoSync Import Instructions (to Development Environment):
+
+--Getting access to git repo:
+
+1) On the intended workstation, open terminal if Linux or Mac. Open git-bash if Windows.
+2) Run "ssh-keygen" to create a public ssh key.
+3) Copy the key to the 10.160.32.36 git server and run "cat /path/to/key >> ~git/.ssh/authorized_keys".
+   You may need to do this as root.
+
+--Cloning the repo from IntelliJ:
+
+1) Close any open projects.
+2) Click on "Check out from Version Control", followed by "Git"
+3) enter "git@10.160.32.36:~/repos/VideoSyncII" in the URL box
+4) Click on Clone
+
+VideoSync Export Instructions (from Development Environment):
+
+1) From the "Build" menu, select "Build Artifacts..."
+2) Resulting jar is located at out/artifacts/VideoSyncII_jar/VideoSyncII.jar
+
+VideoSync Installation Instructions
+
+1) Ensure prereqs are installed.
+    -Java 6 or greater. Java 6 recommended on older Core 2 based Macs. Java 8 or later recommended on all other
+    platforms.
+    -VLC, only if running Linux. Windows and Mac do not require VLC.
+2) Save VideoSyncII.jar on the local computer. Do NOT change the name of the jar file.
+3) Double click on VideoSyncII.jar to run VideoSync. 
+
+Checking Java Version 
+
+Mac:
+1) Open Terminal from Applications, Utilities
+2) Type in 'java -version' and press enter.
+3) The first line returned will be the version number. 
+	- i.e. 'java version "1.6.0_51"', meaning Java Version 1.6 - aka Java 6
+4) If no version of Java is installed, it will need to be downloaded from http://www.java.com/en/download/index.jsp

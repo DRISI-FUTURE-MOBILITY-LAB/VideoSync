@@ -1,0 +1,50 @@
+VideoSync Import Instructions (to Development Environment):
+
+-- From File System
+
+1) Start Eclipse
+2) In Project Explorer, Right Click and Select 'Import'
+3) Choose 'Existing Projects into Workspace'
+4) Use 'Select root directory' option and open folder containing files.
+	- It should import correctly.
+
+-- From Git Server
+	-- To Be Completed --
+
+
+VideoSync Export Instructions (from Development Environment):
+
+1) Right Click on Project Folder (i.e. VideoSync)
+2) Select 'Export'
+3) Select 'Runnable JAR File'
+4) 	a) Choose the appropriate Launch Configuration (Should match the project & startup class name)
+	b) Choose the destination location
+	c) Select 'Extract required libraries into generated JAR'
+5) Select 'Finish'
+
+
+
+
+
+VideoSync Installation Instructions
+
+1) Save VideoSync to the local computer.
+	- It may be saved anywhere 
+	- It has no installation requirements other than Java. It should run on any system running Java 6 or newer.
+	- To check java version, see instructions below.
+2) Run VideoSync
+3) On Startup, it will automatically check to see if VLC has been installed. 
+	- If Not, it will prompt to either download VLC, choose a VLC installation (if it has been installed somewhere other than the default location), or Exit the program
+	- If VLC is installed, it will start up automatically.
+	
+	
+Checking Java Version 
+
+Mac:
+1) Open Terminal from Applications, Utilities
+2) Type in 'java -version' and press enter.
+3) The first line returned will be the version number. 
+	- i.e. 'java version "1.6.0_51"', meaning Java Version 1.6 - aka Java 6
+4) If no version of Java is installed, it will need to be downloaded from http://www.java.com/en/download/index.jsp
+
+	

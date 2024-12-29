@@ -1,0 +1,20 @@
+Necessary Jar Files for project to be compiled and project to run
+ -- jna-3.5.2.jar 			(http://repo1.maven.org/maven2/net/java/dev/jna/jna/3.5.2/jna-3.5.2.jar)
+ -- miglayout15-swing.jar 	(http://repo1.maven.org/maven2/com/miglayout/miglayout-swing/4.2/miglayout-swing-4.2.jar)
+ -- platform-3.5.2.jar 		(http://repo1.maven.org/maven2/net/java/dev/jna/platform/3.5.1/platform-3.5.1.jar)
+ -- vlcj-2.3.1.jar			(http://repo1.maven.org/maven2/uk/co/caprica/vlcj/2.3.1/vlcj-2.3.1.jar)
+
+Eclipse Setup Notes:
+ -- WindowBuilder (http://download.eclipse.org/windowbuilder/WB/release/R201309271200/4.3/) All views were created with this tool as it is very useful. All of the layouts for these classes are setup and stored within the constructors.
+
+Other Notes:
+In order for the program to run, it needs VLC to be installed so that the videos will play. 
+ -- One thing that needs to be done is other video format types need to be added in. Currently only .mov's are utilized.
+ 
+Current Bugs:
+ -- The graph's are not displaying correctly when the data stream runs out at the end. The last state should continue on as long as there is other data still being displayed.
+ -- In addition, there should be lines from the beginning of the data stream so that the lines look constant.
+ 
+Things to be accomplished:
+ -- Windows needs to have its vlc library paths setup correctly. Currently only OS X has been completed.
+ -- The Speed/Volume/Occupancy panel has been initially setup (located in src/views/tabbed_panels/svo). Currently only the view logic has been established, but still needs all logic to be done based on the data in the analyzers.
